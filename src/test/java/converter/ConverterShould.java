@@ -33,4 +33,11 @@ public class ConverterShould {
 
         assertEquals("V", actualResult);
     }
+
+    @Test
+    void convert10toX() {
+        String actualResult = ArabicToRomanConverter.convert(10);
+
+        assertEquals("X", actualResult);
+    }
 }
