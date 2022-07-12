@@ -6,6 +6,10 @@ public class ArabicToRomanConverter {
             return "II";
         }
 
+        if (i == 3) {
+            return "III";
+        }
+
         return "I";
     }
 }

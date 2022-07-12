@@ -26,4 +26,11 @@ public class ConverterShould {
 
         assertEquals("III", actualResult);
     }
+
+    @Test
+    void convert5toV() {
+        String actualResult = ArabicToRomanConverter.convert(5);
+
+        assertEquals("V", actualResult);
+    }
 }
